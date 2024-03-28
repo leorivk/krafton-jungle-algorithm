@@ -1,4 +1,6 @@
-##
+'''
+힙 (우선순위 큐)
+'''
 import sys
 import heapq
 

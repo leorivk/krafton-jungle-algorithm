@@ -1,5 +1,7 @@
-# 모듈러 분배 법칙
-##
+'''
+분할 정복
+모듈로 분배 법칙
+'''
 a, b, c = map(int, input().split())
 
 def sq(a, b, c):

@@ -1,4 +1,6 @@
-##
+'''
+분할 정복
+'''
 n = int(input())
 
 arr = [list(map(int, input().split())) for _ in range(n)]
@@ -27,3 +29,5 @@ def cut(x, y, n):
 cut(0, 0, n)
 print(white)
 print(blue)
+
+    

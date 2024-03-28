@@ -1,4 +1,7 @@
-##
+'''
+분할 정복
+행렬 곱셈 
+'''
 n, b = map(int, input().split())
 
 matrix = [list(map(int, input().split())) for _ in range(n)]

@@ -1,4 +1,6 @@
-##
+'''
+완전 탐색
+'''
 import itertools
 
 n = int(input())

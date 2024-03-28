@@ -1,10 +1,9 @@
-##
+'''
+큐
+list 시간 초과 -> deque, sys.stdin.readline
+'''
 import sys
 from collections import deque
-
-'''
-list -> deque, sys.stdin.readline 사용하여 시간 단축 (or 시간 초과)
-'''
 
 input = sys.stdin.readline
 n = int(input())

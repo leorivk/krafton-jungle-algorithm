@@ -1,4 +1,6 @@
-##
+'''
+재귀
+'''
 n = int(input())
 
 def hanoi(n, start, end, other):

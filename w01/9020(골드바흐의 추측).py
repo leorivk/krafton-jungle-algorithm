@@ -1,4 +1,3 @@
-##
 import sys
 n = int(sys.stdin.readline())
 test = [int(input()) for _ in range(n)]

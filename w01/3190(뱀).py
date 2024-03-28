@@ -1,4 +1,6 @@
-##
+'''
+큐, 시뮬레이션
+'''
 n = int(input())  # 보드의 크기
 k = int(input())  # 사과의 개수
 apples = [tuple(map(int, input().split())) for _ in range(k)]  # 사과의 위치

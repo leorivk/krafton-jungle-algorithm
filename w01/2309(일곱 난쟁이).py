@@ -1,4 +1,7 @@
-##
+'''
+완전 탐색
+dfs?
+'''
 import sys
 
 input = sys.stdin.readline
