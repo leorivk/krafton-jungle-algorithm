@@ -13,6 +13,7 @@ for _ in range(1, n):
     if a[i] == "1" and a[j] == "1":
         cnt += 2
 
+# 해당 정점 주변의 실내 개수를 구하는 함수
 def dfs(node):
     visited[node] = True
     # 인접한 실내 정점의 개수
@@ -36,3 +37,11 @@ for i in range(1, n+1):
         cnt += (result) * (result - 1)
         
 print(cnt)
+
+'''
+원래는 시작점인 실내를 기준으로 탐색
+
+중간에 실내를 거쳐가면 안되므로
+실외에 인접한 실내들만 고려 -> 실외에 초점
+실외가 이어져 있어도 dfs 재귀를 통해 인접한 실내 모두 구할 수 있음 
+'''
